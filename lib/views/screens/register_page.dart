@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -5,6 +7,10 @@ class RegisterPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      body: Center(
+        child: Text("REGISTRO", style: TextStyle(color: Colors.black)),
+      ),
+    );
   }
 }
