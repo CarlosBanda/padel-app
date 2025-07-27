@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:padel_app/views/screens/home_page.dart';
+import 'package:padel_app/views/screens/home_screen.dart';
 import 'package:padel_app/views/screens/register_page.dart';
 import 'package:padel_app/views/widgets/InputWidget.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -172,10 +173,10 @@ class _FormInputsState extends State<_FormInputs> {
                 ),
                 onPressed: () {
                   //if (!loginForm.isValidForm()) return;
-                  //Navigator.pushReplacement(
-                  //context,
-                  //MaterialPageRoute(builder: ((context) => HomePage())),
-                  //);
+                  Navigator.pushReplacement(
+                    context,
+                    MaterialPageRoute(builder: ((context) => Screens())),
+                  );
                 },
                 child: const Text(
                   'Ingresar',
